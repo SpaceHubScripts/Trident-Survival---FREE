@@ -1751,7 +1751,7 @@ end)
         end)
 
         MenuGroup:AddButton('Copy Discord', function()
-        setclipboard(("https://discord.gg/a5G7NY5Y"):format(game.PlaceId, game.JobId))
+        setclipboard(("https://discord.gg/SGUjycQJS4"):format(game.PlaceId, game.JobId))
         end)
 
         MenuGroup:AddDivider()
@@ -1780,4 +1780,4 @@ end)
           Library:SetWatermarkVisibility(false)
 
           --Wrapping function - needed to unload(Keep at end of script)
-          loadstring(game:HttpGet('https://raw.githubusercontent.com/EIOlmqV6v1owgJBEoqj5lK9p01SFE2THpxcOnvX/LinoriaBurnEdition/main/LoaderManager.lua'))()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceHubScripts/Trident-Survival---FREE/main/Trident-Survival---FREE'))()
